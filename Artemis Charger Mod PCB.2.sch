@@ -17081,7 +17081,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <instance part="SUPPLY22" gate="G$1" x="-33.02" y="162.56" rot="R270"/>
 <instance part="SUPPLY7" gate="G$1" x="180.34" y="152.4"/>
 <instance part="SUPPLY20" gate="G$1" x="215.9" y="139.7"/>
-<instance part="SUPPLY21" gate="G$1" x="256.54" y="91.44" rot="R90"/>
+<instance part="SUPPLY21" gate="G$1" x="254" y="91.44" rot="R90"/>
 <instance part="SUPPLY23" gate="G$1" x="281.94" y="193.04" rot="R270"/>
 <instance part="P+2" gate="VCC" x="314.96" y="25.4"/>
 <instance part="GND1" gate="1" x="307.34" y="25.4" rot="R180"/>
@@ -18227,12 +18227,6 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="299.72" y1="48.26" x2="299.72" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+5V/1_CURRENT_SENSE" class="0">
-<segment>
-<pinref part="O1" gate="G$1" pin="VCC1"/>
-<pinref part="SUPPLY21" gate="G$1" pin="+3V3"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -18975,6 +18969,11 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <pinref part="SUPPLY13" gate="G$1" pin="+3V3"/>
 <wire x1="332.74" y1="76.2" x2="335.28" y2="76.2" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="O1" gate="G$1" pin="VCC1"/>
+<pinref part="SUPPLY21" gate="G$1" pin="+3V3"/>
+<wire x1="256.54" y1="91.44" x2="259.08" y2="91.44" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$52" class="0">
 <segment>
@@ -19228,7 +19227,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="744.22" y1="320.04" x2="744.22" y2="334.01" width="0.1524" layer="91"/>
 <wire x1="789.94" y1="358.14" x2="789.94" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="789.94" y1="320.04" x2="744.22" y2="320.04" width="0.1524" layer="91"/>
-<wire x1="789.94" y1="320.04" x2="744.22" y2="320.04" width="0.1524" layer="91"/>
+<junction x="789.94" y="358.14"/>
 </segment>
 </net>
 <net name="RTDS_SIGNAL" class="0">
@@ -19708,6 +19707,86 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,490.22,147.32,U14,VSS,GND1,,,"/>
+<approved hash="104,1,530.86,167.64,U14,VDD,+5V/1,,,"/>
+<approved hash="104,1,495.3,200.66,U15,VSS,GND1,,,"/>
+<approved hash="104,1,495.3,198.12,U15,VDD,+5V/1,,,"/>
+<approved hash="114,1,426.72,378.756,U25,A,IN,,,"/>
+<approved hash="114,1,426.72,378.756,U25,B,IN,,,"/>
+<approved hash="114,1,426.72,378.756,U25,C,IN,,,"/>
+<approved hash="114,1,426.72,378.756,U25,E,IN,,,"/>
+<approved hash="114,1,426.72,378.756,U25,F,IN,,,"/>
+<approved hash="104,1,403.86,434.34,U25POWER,GND,GND1,,,"/>
+<approved hash="104,1,403.86,464.82,U25POWER,VCC,VDD,,,"/>
+<approved hash="114,1,426.72,345.736,U16,A,IN,,,"/>
+<approved hash="114,1,426.72,345.736,U16,B,IN,,,"/>
+<approved hash="114,1,426.72,345.736,U16,C,IN,,,"/>
+<approved hash="114,1,426.72,345.736,U16,E,IN,,,"/>
+<approved hash="114,1,426.72,345.736,U16,F,IN,,,"/>
+<approved hash="104,1,408.94,434.34,U16POWER,GND,GND1,,,"/>
+<approved hash="104,1,408.94,464.82,U16POWER,VCC,VDD,,,"/>
+<approved hash="114,1,426.72,411.776,U17,A,IN,,,"/>
+<approved hash="114,1,426.72,411.776,U17,B,IN,,,"/>
+<approved hash="114,1,426.72,411.776,U17,C,IN,,,"/>
+<approved hash="114,1,426.72,411.776,U17,E,IN,,,"/>
+<approved hash="114,1,426.72,411.776,U17,F,IN,,,"/>
+<approved hash="104,1,398.78,434.34,U17POWER,GND,GND1,,,"/>
+<approved hash="104,1,398.78,464.82,U17POWER,VCC,VDD,,,"/>
+<approved hash="114,1,645.16,413.872,U18,D,S,,,"/>
+<approved hash="114,1,645.16,413.872,U18,D,R,,,"/>
+<approved hash="104,1,685.8,436.88,U18P,GND,GND1,,,"/>
+<approved hash="104,1,685.8,467.36,U18P,VCC,VDD,,,"/>
+<approved hash="202,1,701.04,439.42,U18EN,EN,,,,"/>
+<approved hash="114,1,596.9,354.563,U19,D,IN1,,,"/>
+<approved hash="114,1,596.9,354.563,U19,D,IN2,,,"/>
+<approved hash="104,1,670.56,436.88,U19P,GND,GND1,,,"/>
+<approved hash="104,1,670.56,467.36,U19P,VCC,VDD,,,"/>
+<approved hash="114,1,621.03,339.238,U20,D,IN1,,,"/>
+<approved hash="114,1,621.03,339.238,U20,D,IN2,,,"/>
+<approved hash="104,1,680.72,436.88,U20P,GND,GND1,,,"/>
+<approved hash="104,1,680.72,467.36,U20P,VCC,VDD,,,"/>
+<approved hash="114,1,594.36,342.117,U21,E,IN,,,"/>
+<approved hash="114,1,594.36,342.117,U21,F,IN,,,"/>
+<approved hash="104,1,675.64,436.88,U21POWER,GND,GND1,,,"/>
+<approved hash="104,1,675.64,467.36,U21POWER,VCC,VDD,,,"/>
+<approved hash="114,1,709.93,411.332,U22,B,IN,,,"/>
+<approved hash="114,1,709.93,411.332,U22,B,D,,,"/>
+<approved hash="104,1,711.2,436.88,U22P,GND,GND1,,,"/>
+<approved hash="104,1,711.2,467.36,U22P,VCC,VDD,,,"/>
+<approved hash="114,1,709.93,378.312,U24,B,IN,,,"/>
+<approved hash="114,1,709.93,378.312,U24,B,D,,,"/>
+<approved hash="104,1,716.28,436.88,U24P,GND,GND1,,,"/>
+<approved hash="104,1,716.28,467.36,U24P,VCC,VDD,,,"/>
+<approved hash="114,1,709.93,345.292,U27,B,IN,,,"/>
+<approved hash="114,1,709.93,345.292,U27,B,D,,,"/>
+<approved hash="104,1,721.36,436.88,U27P,GND,GND1,,,"/>
+<approved hash="104,1,721.36,467.36,U27P,VCC,VDD,,,"/>
+<approved hash="114,1,824.23,385.932,U29,B,IN,,,"/>
+<approved hash="114,1,824.23,385.932,U29,B,D,,,"/>
+<approved hash="104,1,815.34,452.12,U29P,GND,GND1,,,"/>
+<approved hash="104,1,815.34,482.6,U29P,VCC,VDD,,,"/>
+<approved hash="104,1,520.7,452.12,U49,GND,GND1,,,"/>
+<approved hash="104,1,558.8,459.74,U49,VCC,VDD,,,"/>
+<approved hash="114,1,824.23,431.652,U31,B,IN,,,"/>
+<approved hash="114,1,824.23,431.652,U31,B,D,,,"/>
+<approved hash="104,1,820.42,452.12,U31P,GND,GND1,,,"/>
+<approved hash="104,1,820.42,482.6,U31P,VCC,VDD,,,"/>
+<approved hash="114,1,824.23,345.292,U33,B,IN,,,"/>
+<approved hash="114,1,824.23,345.292,U33,B,D,,,"/>
+<approved hash="104,1,810.26,452.12,U33P,GND,GND1,,,"/>
+<approved hash="104,1,810.26,482.6,U33P,VCC,VDD,,,"/>
+<approved hash="111,1,246.38,121.92,N$10,,,,,"/>
+<approved hash="113,1,270.468,170.311,JP1,,,,,"/>
+<approved hash="113,1,554.99,152.078,LED29,,,,,"/>
+<approved hash="113,1,554.99,144.458,LED30,,,,,"/>
+<approved hash="113,1,438.298,262.065,H4,,,,,"/>
+<approved hash="113,1,594.36,342.117,U21,,,,,"/>
+<approved hash="113,1,466.746,152.4,Y1,,,,,"/>
+<approved hash="115,1,255.27,190.5,N$9,,,,,"/>
+<approved hash="115,1,744.22,367.665,RTDS_SOURCE,,,,,"/>
+<approved hash="115,1,744.22,400.685,RTDS_SOURCE,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
