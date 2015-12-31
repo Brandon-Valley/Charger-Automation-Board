@@ -16408,7 +16408,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PARTNO" value="GRM21BR71E104KA01L"/>
 </part>
 <part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="33.2k">
-<attribute name="PARTNO" value="ERA-6AEB5492V"/>
+<attribute name="PARTNO" value="1676307-2"/>
 </part>
 <part name="C2" library="adafruit" deviceset="C-US" device="C0805" value="10uF">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>

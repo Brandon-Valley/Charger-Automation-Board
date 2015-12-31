@@ -2739,7 +2739,7 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="22.2123" y="55.245" size="1.27" layer="25" ratio="6" rot="SR0"/>
 </element>
 <element name="R1" library="adafruit" package="R0805" value="33.2k" x="26.035" y="19.05" smashed="yes">
-<attribute name="PARTNO" value="ERA-6AEB5492V" x="26.035" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="1676307-2" x="26.035" y="19.05" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="28.448" y="18.796" size="1.27" layer="25"/>
 <attribute name="VALUE" x="25.273" y="16.764" size="1.27" layer="27"/>
 </element>
