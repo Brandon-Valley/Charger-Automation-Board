@@ -16391,8 +16391,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PARTNO" value="TPS562219DDFT"/>
 </part>
 <part name="P+22" library="supply1" deviceset="VCC" device=""/>
-<part name="O1" library="FormE" deviceset="ISO1541" device=""/>
-<part name="U3" library="FormE" deviceset="MAX5812" device="M" value="MAX5812"/>
+<part name="O1" library="FormE" deviceset="ISO1541" device="">
+<attribute name="PARTNO" value="ISO1541DR"/>
+</part>
+<part name="U3" library="FormE" deviceset="MAX5812" device="M" value="MAX5812">
+<attribute name="PARTNO" value="MAX5812LEUT+T"/>
+</part>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X20" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="LED3" library="FormE" deviceset="LED" device="CHIPLED_0805" value="GREEN">
@@ -16403,7 +16407,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="P+21" library="supply1" deviceset="+5V" device=""/>
-<part name="U8" library="FormE" deviceset="MAX5812" device="M" value="MAX5812"/>
+<part name="U8" library="FormE" deviceset="MAX5812" device="M" value="MAX5812">
+<attribute name="PARTNO" value="MAX5812LEUT+T"/>
+</part>
 <part name="C1" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L"/>
 </part>
@@ -16474,12 +16480,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="VDD" device=""/>
-<part name="U11" library="FormE" deviceset="ISO7340" device=""/>
+<part name="U11" library="FormE" deviceset="ISO7340" device="">
+<attribute name="PARTNO" value="ISO7340CDWR"/>
+</part>
 <part name="SUPPLY13" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY24" library="supply2" deviceset="GND1" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="U12" library="FormE" deviceset="ISO7340" device=""/>
+<part name="U12" library="FormE" deviceset="ISO7340" device="">
+<attribute name="PARTNO" value="ISO7340CDWR"/>
+</part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY25" library="supply2" deviceset="GND1" device=""/>
 <part name="SUPPLY26" library="supply1" deviceset="+3V3" device=""/>
@@ -16629,18 +16639,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R18" library="rcl" deviceset="R-US_" device="R0805" value="10k">
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
-<part name="U25" library="FormE" deviceset="CD4050B" device="D">
-<attribute name="PARTNO" value="CD4050BDR"/>
-</part>
 <part name="R19" library="rcl" deviceset="R-US_" device="R0805" value="0">
 <attribute name="PARTNO" value="ERJ-6GEY0R00V"/>
 </part>
 <part name="C29" library="rcl" deviceset="C-US" device="C0805" value="DNP"/>
 <part name="R20" library="rcl" deviceset="R-US_" device="R0805" value="10k">
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
-</part>
-<part name="U16" library="FormE" deviceset="CD4050B" device="D">
-<attribute name="PARTNO" value="CD4050BDR"/>
 </part>
 <part name="R21" library="rcl" deviceset="R-US_" device="R0805" value="0">
 <attribute name="PARTNO" value="ERJ-6GEY0R00V"/>
@@ -16653,9 +16657,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PARTNO" value="CD4050BDR"/>
 </part>
 <part name="+3V19" library="supply1" deviceset="+3V3" device=""/>
-<part name="R40" library="rcl" deviceset="R-US_" device="R0805" value="10k">
-<attribute name="PARTNO" value="ERJ-6ENF1002V"/>
-</part>
 <part name="R41" library="rcl" deviceset="R-US_" device="R0805" value="10k">
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
@@ -16663,9 +16664,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PARTNO" value="BSS138"/>
 </part>
 <part name="+3V20" library="supply1" deviceset="+3V3" device=""/>
-<part name="R42" library="rcl" deviceset="R-US_" device="R0805" value="10k">
-<attribute name="PARTNO" value="ERJ-6ENF1002V"/>
-</part>
 <part name="R43" library="rcl" deviceset="R-US_" device="R0805" value="10k">
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
@@ -16673,9 +16671,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PARTNO" value="BSS138"/>
 </part>
 <part name="+3V21" library="supply1" deviceset="+3V3" device=""/>
-<part name="R44" library="rcl" deviceset="R-US_" device="R0805" value="10k">
-<attribute name="PARTNO" value="ERJ-6ENF1002V"/>
-</part>
 <part name="R45" library="rcl" deviceset="R-US_" device="R0805" value="10k">
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
@@ -16709,9 +16704,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP30" library="testpad" deviceset="PTR1" device="TP20R"/>
 <part name="TP31" library="testpad" deviceset="PTR1" device="TP20R"/>
 <part name="TP32" library="testpad" deviceset="PTR1" device="TP20R"/>
-<part name="U24" library="FormE" deviceset="LTC1155" device="">
-<attribute name="PARTNO" value="LTC1155CS8#PBF"/>
-</part>
 <part name="U26" library="FormE" deviceset="CSD17506Q5A" device="">
 <attribute name="PARTNO" value="CSD17506Q5A"/>
 </part>
@@ -16788,18 +16780,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PARTNO" value="ERA-6AEB222V"/>
 </part>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="U31" library="FormE" deviceset="LTC1155" device="">
-<attribute name="PARTNO" value="LTC1155CS8#PBF"/>
-</part>
 <part name="U32" library="FormE" deviceset="CSD17506Q5A" device="">
 <attribute name="PARTNO" value="CSD17506Q5A"/>
 </part>
 <part name="TP8" library="testpad" deviceset="PTR1" device="TP20R"/>
 <part name="TP13" library="testpad" deviceset="PTR1" device="TP20R"/>
 <part name="TP14" library="testpad" deviceset="PTR1" device="TP20R"/>
-<part name="U33" library="FormE" deviceset="LTC1155" device="">
-<attribute name="PARTNO" value="LTC1155CS8#PBF"/>
-</part>
 <part name="U34" library="FormE" deviceset="CSD17506Q5A" device="">
 <attribute name="PARTNO" value="CSD17506Q5A"/>
 </part>
@@ -16822,11 +16808,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY51" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY52" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY53" library="supply2" deviceset="VDD" device=""/>
-<part name="SUPPLY54" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY55" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY56" library="supply2" deviceset="VDD" device=""/>
-<part name="SUPPLY57" library="supply2" deviceset="GND1" device=""/>
-<part name="SUPPLY58" library="supply2" deviceset="GND1" device=""/>
 <part name="R34" library="adafruit" deviceset="R-US_" device="R0805" value="10K">
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
@@ -16847,34 +16830,47 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP12" library="testpad" deviceset="PTR1" device="TP20R"/>
 <part name="TP15" library="testpad" deviceset="PTR1" device="TP20R"/>
 <part name="TP19" library="testpad" deviceset="PTR1" device="TP20R"/>
-<part name="Y1" library="FormE" deviceset="CSM-3X" device=""/>
-<part name="S1" library="FormE" deviceset="TE-FSM4JSMATR" device=""/>
-<part name="SUPPLY61" library="supply2" deviceset="VDD" device=""/>
-<part name="SUPPLY62" library="supply2" deviceset="VDD" device=""/>
-<part name="SUPPLY63" library="supply2" deviceset="VDD" device=""/>
-<part name="SUPPLY64" library="supply2" deviceset="VDD" device=""/>
+<part name="Y1" library="FormE" deviceset="CSM-3X" device="">
+<attribute name="PARTNO" value="ECS-160-20-3X-TR"/>
+</part>
+<part name="S1" library="FormE" deviceset="TE-FSM4JSMATR" device="">
+<attribute name="PARTNO" value="FSM4JSMATR"/>
+</part>
 <part name="SUPPLY65" library="supply2" deviceset="GND1" device=""/>
 <part name="SUPPLY66" library="supply2" deviceset="GND1" device=""/>
 <part name="SUPPLY67" library="supply2" deviceset="GND1" device=""/>
 <part name="SUPPLY68" library="supply2" deviceset="GND1" device=""/>
 <part name="SUPPLY69" library="supply2" deviceset="GND1" device=""/>
-<part name="SUPPLY70" library="supply2" deviceset="GND1" device=""/>
-<part name="SUPPLY71" library="supply2" deviceset="GND1" device=""/>
 <part name="SUPPLY72" library="supply2" deviceset="VDD" device=""/>
-<part name="SUPPLY73" library="supply2" deviceset="VDD" device=""/>
-<part name="SUPPLY74" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY75" library="supply2" deviceset="VDD" device=""/>
-<part name="SUPPLY76" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY77" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY78" library="supply2" deviceset="GND1" device=""/>
-<part name="SUPPLY79" library="supply2" deviceset="GND1" device=""/>
 <part name="SUPPLY80" library="supply2" deviceset="GND1" device=""/>
-<part name="SUPPLY39" library="supply2" deviceset="GND1" device=""/>
-<part name="SUPPLY81" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY82" library="supply2" deviceset="VDD" device=""/>
-<part name="SUPPLY83" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY84" library="supply2" deviceset="GND1" device=""/>
-<part name="SUPPLY85" library="supply2" deviceset="GND1" device=""/>
+<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY54" library="supply2" deviceset="GND1" device=""/>
+<part name="SUPPLY57" library="supply2" deviceset="GND1" device=""/>
+<part name="SUPPLY58" library="supply2" deviceset="GND1" device=""/>
+<part name="SUPPLY86" library="supply2" deviceset="GND1" device=""/>
+<part name="SUPPLY87" library="supply2" deviceset="GND1" device=""/>
+<part name="SUPPLY88" library="supply2" deviceset="GND1" device=""/>
+<part name="SUPPLY89" library="supply2" deviceset="GND1" device=""/>
+<part name="SUPPLY90" library="supply2" deviceset="GND1" device=""/>
+<part name="SUPPLY91" library="supply2" deviceset="GND1" device=""/>
+<part name="SUPPLY92" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY93" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY39" library="supply2" deviceset="GND1" device=""/>
+<part name="C35" library="rcl" deviceset="C-US" device="C0805" value="1uF">
+<attribute name="PARTNO" value="EMK212B7105KG-T"/>
+</part>
+<part name="C36" library="rcl" deviceset="C-US" device="C0805" value="1uF">
+<attribute name="PARTNO" value="EMK212B7105KG-T"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -16947,12 +16943,6 @@ In= Timer ADJ emulator</text>
 <text x="876.3" y="416.56" size="1.778" layer="91">&lt;-- To contactor in Acumulator</text>
 <text x="403.86" y="274.32" size="1.778" layer="91">&lt;- Both to IO Pannle -&gt;
      </text>
-<text x="363.22" y="254" size="1.778" layer="91">Why Nets Connected?????</text>
-<text x="429.26" y="429.26" size="1.778" layer="91">Mosfets want to go to GND not GND1
-But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
-<text x="604.52" y="431.8" size="1.778" layer="91">U18 is tied to something on charger side ???????????</text>
-<text x="604.52" y="426.72" size="1.778" layer="91">Also U17</text>
-<text x="609.6" y="177.8" size="1.778" layer="91">Connected to 5v/1 current sense not 5V/1 ??????</text>
 </plain>
 <instances>
 <instance part="C12" gate="G$1" x="-25.4" y="55.88">
@@ -17000,9 +16990,12 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <attribute name="PARTNO" x="58.42" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+22" gate="VCC" x="-53.34" y="60.96" rot="R90"/>
-<instance part="O1" gate="G$1" x="271.78" y="83.82"/>
+<instance part="O1" gate="G$1" x="271.78" y="83.82">
+<attribute name="PARTNO" x="271.78" y="83.82" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U3" gate="G$1" x="269.24" y="15.24" smashed="yes">
 <attribute name="NAME" x="269.24" y="25.4" size="1.778" layer="95"/>
+<attribute name="PARTNO" x="269.24" y="15.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP1" gate="A" x="269.24" y="170.18"/>
 <instance part="P+1" gate="1" x="180.34" y="73.66"/>
@@ -17016,6 +17009,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <instance part="P+21" gate="1" x="215.9" y="60.96"/>
 <instance part="U8" gate="G$1" x="269.24" y="43.18" smashed="yes">
 <attribute name="NAME" x="269.24" y="53.34" size="1.778" layer="95"/>
+<attribute name="PARTNO" x="269.24" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="-25.4" y="134.62">
 <attribute name="PARTNO" x="-25.4" y="134.62" size="1.778" layer="96" display="off"/>
@@ -17081,18 +17075,22 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <instance part="SUPPLY22" gate="G$1" x="-33.02" y="162.56" rot="R270"/>
 <instance part="SUPPLY7" gate="G$1" x="180.34" y="152.4"/>
 <instance part="SUPPLY20" gate="G$1" x="215.9" y="139.7"/>
-<instance part="SUPPLY21" gate="G$1" x="254" y="91.44" rot="R90"/>
-<instance part="SUPPLY23" gate="G$1" x="281.94" y="193.04" rot="R270"/>
+<instance part="SUPPLY21" gate="G$1" x="251.46" y="91.44" rot="R90"/>
+<instance part="SUPPLY23" gate="G$1" x="287.02" y="193.04" rot="R270"/>
 <instance part="P+2" gate="VCC" x="314.96" y="25.4"/>
 <instance part="GND1" gate="1" x="307.34" y="25.4" rot="R180"/>
 <instance part="SUPPLY8" gate="G$1" x="-35.56" y="142.24"/>
 <instance part="SUPPLY9" gate="G$1" x="-20.32" y="162.56" rot="R270"/>
-<instance part="U11" gate="G$1" x="350.52" y="60.96"/>
+<instance part="U11" gate="G$1" x="350.52" y="60.96">
+<attribute name="PARTNO" x="350.52" y="60.96" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY13" gate="G$1" x="330.2" y="76.2" rot="R90"/>
 <instance part="SUPPLY24" gate="G$1" x="332.74" y="45.72" rot="R270"/>
 <instance part="GND2" gate="1" x="368.3" y="45.72" rot="R90"/>
 <instance part="P+3" gate="1" x="368.3" y="76.2" rot="R270"/>
-<instance part="U12" gate="G$1" x="350.52" y="104.14" rot="R180"/>
+<instance part="U12" gate="G$1" x="350.52" y="104.14" rot="R180">
+<attribute name="PARTNO" x="350.52" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND3" gate="1" x="368.3" y="119.38" rot="R90"/>
 <instance part="SUPPLY25" gate="G$1" x="332.74" y="119.38" rot="R270"/>
 <instance part="SUPPLY26" gate="G$1" x="330.2" y="88.9" rot="R90"/>
@@ -17246,18 +17244,12 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <instance part="R18" gate="G$1" x="383.54" y="370.84" rot="R90">
 <attribute name="PARTNO" x="383.54" y="370.84" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="U25" gate="D" x="424.18" y="373.38">
-<attribute name="PARTNO" x="424.18" y="373.38" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="R19" gate="G$1" x="401.32" y="345.44" rot="R180">
 <attribute name="PARTNO" x="401.32" y="345.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C29" gate="G$1" x="408.94" y="340.36"/>
 <instance part="R20" gate="G$1" x="383.54" y="337.82" rot="R90">
 <attribute name="PARTNO" x="383.54" y="337.82" size="1.778" layer="96" rot="R180" display="off"/>
-</instance>
-<instance part="U16" gate="D" x="424.18" y="340.36">
-<attribute name="PARTNO" x="424.18" y="340.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="401.32" y="411.48" rot="R180">
 <attribute name="PARTNO" x="401.32" y="411.48" size="1.778" layer="96" display="off"/>
@@ -17266,13 +17258,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <instance part="R22" gate="G$1" x="383.54" y="419.1" rot="R270">
 <attribute name="PARTNO" x="383.54" y="419.1" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U17" gate="D" x="424.18" y="406.4">
-<attribute name="PARTNO" x="424.18" y="406.4" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="+3V19" gate="G$1" x="487.68" y="434.34"/>
-<instance part="R40" gate="G$1" x="472.44" y="421.64" rot="R90">
-<attribute name="PARTNO" x="472.44" y="421.64" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
 <instance part="R41" gate="G$1" x="487.68" y="421.64" rot="R90">
 <attribute name="PARTNO" x="487.68" y="421.64" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -17280,9 +17266,6 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <attribute name="PARTNO" x="482.6" y="411.48" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="+3V20" gate="G$1" x="487.68" y="401.32"/>
-<instance part="R42" gate="G$1" x="472.44" y="368.3" rot="R270">
-<attribute name="PARTNO" x="472.44" y="368.3" size="1.778" layer="96" rot="R270" display="off"/>
-</instance>
 <instance part="R43" gate="G$1" x="487.68" y="388.62" rot="R90">
 <attribute name="PARTNO" x="487.68" y="388.62" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -17290,9 +17273,6 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <attribute name="PARTNO" x="482.6" y="378.46" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="+3V21" gate="G$1" x="487.68" y="368.3"/>
-<instance part="R44" gate="G$1" x="472.44" y="335.28" rot="R270">
-<attribute name="PARTNO" x="472.44" y="335.28" size="1.778" layer="96" rot="R270" display="off"/>
-</instance>
 <instance part="R45" gate="G$1" x="487.68" y="355.6" rot="R90">
 <attribute name="PARTNO" x="487.68" y="355.6" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -17328,8 +17308,8 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <instance part="+3V14" gate="G$1" x="657.86" y="396.24" smashed="yes">
 <attribute name="VALUE" x="655.32" y="393.7" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V16" gate="G$1" x="657.86" y="429.26" smashed="yes">
-<attribute name="VALUE" x="655.32" y="426.72" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V16" gate="G$1" x="657.86" y="431.8" smashed="yes">
+<attribute name="VALUE" x="655.32" y="429.26" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U22" gate="A" x="708.66" y="408.94"/>
 <instance part="U23" gate="A" x="744.22" y="414.02">
@@ -17338,7 +17318,6 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <instance part="TP30" gate="G$1" x="749.3" y="400.05" rot="R90"/>
 <instance part="TP31" gate="G$1" x="726.44" y="403.86"/>
 <instance part="TP32" gate="G$1" x="688.34" y="406.4"/>
-<instance part="U24" gate="A" x="708.66" y="375.92"/>
 <instance part="U26" gate="A" x="744.22" y="381">
 <attribute name="PARTNO" x="744.22" y="381" size="1.778" layer="96" display="off"/>
 </instance>
@@ -17417,14 +17396,12 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <attribute name="VALUE" x="490.22" y="487.68" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U21" gate="C" x="622.3" y="452.12"/>
-<instance part="U31" gate="A" x="822.96" y="429.26"/>
 <instance part="U32" gate="A" x="858.52" y="434.34">
 <attribute name="PARTNO" x="858.52" y="434.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP8" gate="G$1" x="863.6" y="420.37" rot="R90"/>
 <instance part="TP13" gate="G$1" x="840.74" y="424.18"/>
 <instance part="TP14" gate="G$1" x="802.64" y="426.72"/>
-<instance part="U33" gate="A" x="822.96" y="342.9"/>
 <instance part="U34" gate="A" x="858.52" y="347.98">
 <attribute name="PARTNO" x="858.52" y="347.98" size="1.778" layer="96" display="off"/>
 </instance>
@@ -17447,11 +17424,8 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <instance part="SUPPLY51" gate="G$1" x="810.26" y="337.82" rot="R180"/>
 <instance part="SUPPLY52" gate="G$1" x="810.26" y="373.38" rot="R180"/>
 <instance part="SUPPLY53" gate="G$1" x="810.26" y="419.1" rot="R180"/>
-<instance part="SUPPLY54" gate="G$1" x="472.44" y="434.34"/>
 <instance part="SUPPLY55" gate="G$1" x="584.2" y="474.98"/>
 <instance part="SUPPLY56" gate="G$1" x="561.34" y="480.06"/>
-<instance part="SUPPLY57" gate="G$1" x="472.44" y="358.14"/>
-<instance part="SUPPLY58" gate="G$1" x="472.44" y="325.12"/>
 <instance part="R34" gate="G$1" x="248.92" y="121.92" rot="R180">
 <attribute name="PARTNO" x="248.92" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -17472,48 +17446,72 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <instance part="TP12" gate="G$1" x="469.9" y="109.22"/>
 <instance part="TP15" gate="G$1" x="464.82" y="109.22"/>
 <instance part="TP19" gate="G$1" x="459.74" y="109.22"/>
-<instance part="Y1" gate="G$1" x="472.44" y="152.4"/>
-<instance part="S1" gate="G$1" x="469.9" y="469.9"/>
+<instance part="Y1" gate="G$1" x="472.44" y="152.4">
+<attribute name="PARTNO" x="472.44" y="152.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S1" gate="G$1" x="469.9" y="469.9">
+<attribute name="PARTNO" x="469.9" y="469.9" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U19" gate="P" x="670.56" y="452.12"/>
 <instance part="U21" gate="POWER" x="675.64" y="452.12"/>
 <instance part="U20" gate="P" x="680.72" y="452.12"/>
 <instance part="U18" gate="P" x="685.8" y="452.12"/>
-<instance part="SUPPLY61" gate="G$1" x="670.56" y="469.9"/>
-<instance part="SUPPLY62" gate="G$1" x="675.64" y="469.9"/>
-<instance part="SUPPLY63" gate="G$1" x="680.72" y="469.9"/>
-<instance part="SUPPLY64" gate="G$1" x="685.8" y="469.9"/>
 <instance part="SUPPLY65" gate="G$1" x="670.56" y="434.34"/>
 <instance part="SUPPLY66" gate="G$1" x="675.64" y="434.34"/>
 <instance part="SUPPLY67" gate="G$1" x="680.72" y="434.34"/>
 <instance part="SUPPLY68" gate="G$1" x="685.8" y="434.34"/>
 <instance part="U17" gate="POWER" x="398.78" y="449.58"/>
-<instance part="U25" gate="POWER" x="403.86" y="449.58"/>
-<instance part="U16" gate="POWER" x="408.94" y="449.58"/>
 <instance part="SUPPLY69" gate="G$1" x="398.78" y="431.8"/>
-<instance part="SUPPLY70" gate="G$1" x="403.86" y="431.8"/>
-<instance part="SUPPLY71" gate="G$1" x="408.94" y="431.8"/>
 <instance part="SUPPLY72" gate="G$1" x="398.78" y="467.36"/>
-<instance part="SUPPLY73" gate="G$1" x="403.86" y="467.36"/>
-<instance part="SUPPLY74" gate="G$1" x="408.94" y="467.36"/>
-<instance part="U18" gate="EN" x="695.96" y="439.42"/>
-<instance part="U24" gate="P" x="716.28" y="452.12"/>
+<instance part="U18" gate="EN" x="698.5" y="434.34" rot="R90"/>
 <instance part="U22" gate="P" x="711.2" y="452.12"/>
-<instance part="U27" gate="P" x="721.36" y="452.12"/>
+<instance part="U27" gate="P" x="718.82" y="452.12"/>
 <instance part="SUPPLY75" gate="G$1" x="711.2" y="469.9"/>
-<instance part="SUPPLY76" gate="G$1" x="716.28" y="469.9"/>
-<instance part="SUPPLY77" gate="G$1" x="721.36" y="469.9"/>
+<instance part="SUPPLY77" gate="G$1" x="718.82" y="469.9"/>
 <instance part="SUPPLY78" gate="G$1" x="711.2" y="434.34"/>
-<instance part="SUPPLY79" gate="G$1" x="716.28" y="434.34"/>
-<instance part="SUPPLY80" gate="G$1" x="721.36" y="434.34"/>
-<instance part="U33" gate="P" x="810.26" y="467.36"/>
+<instance part="SUPPLY80" gate="G$1" x="718.82" y="434.34"/>
 <instance part="U29" gate="P" x="815.34" y="467.36"/>
-<instance part="U31" gate="P" x="820.42" y="467.36"/>
-<instance part="SUPPLY39" gate="G$1" x="810.26" y="449.58"/>
-<instance part="SUPPLY81" gate="G$1" x="810.26" y="485.14"/>
 <instance part="SUPPLY82" gate="G$1" x="815.34" y="485.14"/>
-<instance part="SUPPLY83" gate="G$1" x="820.42" y="485.14"/>
 <instance part="SUPPLY84" gate="G$1" x="815.34" y="449.58"/>
-<instance part="SUPPLY85" gate="G$1" x="820.42" y="449.58"/>
+<instance part="U17" gate="A" x="424.18" y="406.4"/>
+<instance part="U17" gate="B" x="424.18" y="373.38"/>
+<instance part="U17" gate="C" x="424.18" y="340.36"/>
+<instance part="U22" gate="B" x="708.66" y="375.92"/>
+<instance part="U27" gate="B" x="822.96" y="429.26"/>
+<instance part="U29" gate="B" x="822.96" y="342.9"/>
+<instance part="+3V1" gate="G$1" x="698.5" y="447.04" smashed="yes">
+<attribute name="VALUE" x="695.96" y="444.5" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY54" gate="G$1" x="287.02" y="187.96" rot="R90"/>
+<instance part="SUPPLY57" gate="G$1" x="248.92" y="71.12"/>
+<instance part="SUPPLY58" gate="G$1" x="287.02" y="177.8" rot="R90"/>
+<instance part="SUPPLY86" gate="G$1" x="287.02" y="170.18" rot="R90"/>
+<instance part="SUPPLY87" gate="G$1" x="256.54" y="162.56" rot="R270"/>
+<instance part="SUPPLY88" gate="G$1" x="256.54" y="182.88" rot="R270"/>
+<instance part="SUPPLY89" gate="G$1" x="287.02" y="157.48" rot="R90"/>
+<instance part="SUPPLY90" gate="G$1" x="287.02" y="152.4" rot="R90"/>
+<instance part="SUPPLY91" gate="G$1" x="543.56" y="193.04"/>
+<instance part="SUPPLY92" gate="G$1" x="528.32" y="220.98"/>
+<instance part="SUPPLY93" gate="G$1" x="553.72" y="180.34"/>
+<instance part="+3V2" gate="G$1" x="685.8" y="472.44" smashed="yes">
+<attribute name="VALUE" x="683.26" y="469.9" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V4" gate="G$1" x="680.72" y="472.44" smashed="yes">
+<attribute name="VALUE" x="678.18" y="469.9" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V5" gate="G$1" x="675.64" y="472.44" smashed="yes">
+<attribute name="VALUE" x="673.1" y="469.9" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V6" gate="G$1" x="670.56" y="472.44" smashed="yes">
+<attribute name="VALUE" x="668.02" y="469.9" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY39" gate="G$1" x="553.72" y="162.56"/>
+<instance part="C35" gate="G$1" x="553.72" y="170.18">
+<attribute name="PARTNO" x="553.72" y="170.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C36" gate="G$1" x="543.56" y="208.28">
+<attribute name="PARTNO" x="543.56" y="208.28" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17819,7 +17817,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="215.9" y1="124.46" x2="215.9" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="ADD" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="ADD"/>
 <wire x1="279.4" y1="15.24" x2="287.02" y2="15.24" width="0.1524" layer="91"/>
@@ -17836,7 +17834,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <label x="604.52" y="340.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="SDA" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="SDA"/>
 <wire x1="259.08" y1="38.1" x2="259.08" y2="30.48" width="0.1524" layer="91"/>
@@ -17856,23 +17854,13 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
-<wire x1="266.7" y1="190.5" x2="243.84" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="190.5" x2="243.84" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="O1" gate="G$1" pin="SDA1"/>
-<wire x1="243.84" y1="121.92" x2="243.84" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="86.36" x2="259.08" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R34" gate="G$1" pin="2"/>
-<junction x="243.84" y="121.92"/>
-</segment>
-<segment>
 <pinref part="U21" gate="A" pin="OUT"/>
 <wire x1="601.98" y1="406.4" x2="612.14" y2="406.4" width="0.1524" layer="91"/>
 <pinref part="U20" gate="B" pin="IN1"/>
 <label x="604.52" y="406.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="SCL1_I2C" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="5"/>
 <wire x1="266.7" y1="187.96" x2="246.38" y2="187.96" width="0.1524" layer="91"/>
@@ -18111,16 +18099,6 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <junction x="891.54" y="381"/>
 </segment>
 <segment>
-<pinref part="R42" gate="G$1" pin="2"/>
-<pinref part="SUPPLY57" gate="G$1" pin="GND1"/>
-<wire x1="472.44" y1="363.22" x2="472.44" y2="360.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R44" gate="G$1" pin="2"/>
-<pinref part="SUPPLY58" gate="G$1" pin="GND1"/>
-<wire x1="472.44" y1="330.2" x2="472.44" y2="327.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U19" gate="P" pin="GND"/>
 <pinref part="SUPPLY65" gate="G$1" pin="GND1"/>
 </segment>
@@ -18141,36 +18119,69 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <pinref part="SUPPLY69" gate="G$1" pin="GND1"/>
 </segment>
 <segment>
-<pinref part="U25" gate="POWER" pin="GND"/>
-<pinref part="SUPPLY70" gate="G$1" pin="GND1"/>
-</segment>
-<segment>
-<pinref part="U16" gate="POWER" pin="GND"/>
-<pinref part="SUPPLY71" gate="G$1" pin="GND1"/>
-</segment>
-<segment>
 <pinref part="U22" gate="P" pin="GND"/>
 <pinref part="SUPPLY78" gate="G$1" pin="GND1"/>
-</segment>
-<segment>
-<pinref part="U24" gate="P" pin="GND"/>
-<pinref part="SUPPLY79" gate="G$1" pin="GND1"/>
 </segment>
 <segment>
 <pinref part="U27" gate="P" pin="GND"/>
 <pinref part="SUPPLY80" gate="G$1" pin="GND1"/>
 </segment>
 <segment>
-<pinref part="U33" gate="P" pin="GND"/>
-<pinref part="SUPPLY39" gate="G$1" pin="GND1"/>
-</segment>
-<segment>
 <pinref part="U29" gate="P" pin="GND"/>
 <pinref part="SUPPLY84" gate="G$1" pin="GND1"/>
 </segment>
 <segment>
-<pinref part="U31" gate="P" pin="GND"/>
-<pinref part="SUPPLY85" gate="G$1" pin="GND1"/>
+<pinref part="JP1" gate="A" pin="6"/>
+<wire x1="274.32" y1="187.96" x2="284.48" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="SUPPLY54" gate="G$1" pin="GND1"/>
+</segment>
+<segment>
+<pinref part="O1" gate="G$1" pin="GND1"/>
+<wire x1="248.92" y1="76.2" x2="259.08" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="SUPPLY57" gate="G$1" pin="GND1"/>
+<wire x1="248.92" y1="76.2" x2="248.92" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="14"/>
+<wire x1="274.32" y1="177.8" x2="284.48" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="SUPPLY58" gate="G$1" pin="GND1"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="20"/>
+<wire x1="274.32" y1="170.18" x2="284.48" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="SUPPLY86" gate="G$1" pin="GND1"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="25"/>
+<wire x1="266.7" y1="162.56" x2="259.08" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="SUPPLY87" gate="G$1" pin="GND1"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="9"/>
+<wire x1="266.7" y1="182.88" x2="259.08" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="SUPPLY88" gate="G$1" pin="GND1"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="30"/>
+<wire x1="274.32" y1="157.48" x2="284.48" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY89" gate="G$1" pin="GND1"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="34"/>
+<wire x1="274.32" y1="152.4" x2="284.48" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="SUPPLY90" gate="G$1" pin="GND1"/>
+</segment>
+<segment>
+<pinref part="U15" gate="G$1" pin="STBY"/>
+<wire x1="525.78" y1="203.2" x2="543.56" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="203.2" x2="543.56" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="SUPPLY91" gate="G$1" pin="GND1"/>
+<pinref part="C36" gate="G$1" pin="2"/>
+<junction x="543.56" y="203.2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY39" gate="G$1" pin="GND1"/>
+<pinref part="C35" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -18309,9 +18320,9 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <pinref part="SUPPLY42" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
-<pinref part="U24" gate="A" pin="D"/>
 <wire x1="698.5" y1="373.38" x2="695.96" y2="373.38" width="0.1524" layer="91"/>
 <pinref part="SUPPLY18" gate="G$1" pin="VDD"/>
+<pinref part="U22" gate="B" pin="D"/>
 </segment>
 <segment>
 <pinref part="U22" gate="A" pin="D"/>
@@ -18319,9 +18330,9 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <pinref part="SUPPLY19" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
-<pinref part="U33" gate="A" pin="D"/>
 <wire x1="812.8" y1="340.36" x2="810.26" y2="340.36" width="0.1524" layer="91"/>
 <pinref part="SUPPLY51" gate="G$1" pin="VDD"/>
+<pinref part="U29" gate="B" pin="D"/>
 </segment>
 <segment>
 <pinref part="U29" gate="A" pin="D"/>
@@ -18330,15 +18341,10 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="810.26" y1="381" x2="810.26" y2="375.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U31" gate="A" pin="D"/>
 <wire x1="812.8" y1="426.72" x2="810.26" y2="426.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY53" gate="G$1" pin="VDD"/>
 <wire x1="810.26" y1="421.64" x2="810.26" y2="426.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R40" gate="G$1" pin="2"/>
-<wire x1="472.44" y1="426.72" x2="472.44" y2="431.8" width="0.1524" layer="91"/>
-<pinref part="SUPPLY54" gate="G$1" pin="VDD"/>
+<pinref part="U27" gate="B" pin="D"/>
 </segment>
 <segment>
 <pinref part="U49" gate="A" pin="VCC"/>
@@ -18361,56 +18367,20 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <pinref part="SUPPLY55" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
-<pinref part="SUPPLY61" gate="G$1" pin="VDD"/>
-<pinref part="U19" gate="P" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="U21" gate="POWER" pin="VCC"/>
-<pinref part="SUPPLY62" gate="G$1" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="U20" gate="P" pin="VCC"/>
-<pinref part="SUPPLY63" gate="G$1" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="U18" gate="P" pin="VCC"/>
-<pinref part="SUPPLY64" gate="G$1" pin="VDD"/>
-</segment>
-<segment>
 <pinref part="U17" gate="POWER" pin="VCC"/>
 <pinref part="SUPPLY72" gate="G$1" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="U25" gate="POWER" pin="VCC"/>
-<pinref part="SUPPLY73" gate="G$1" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="U16" gate="POWER" pin="VCC"/>
-<pinref part="SUPPLY74" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="U22" gate="P" pin="VCC"/>
 <pinref part="SUPPLY75" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
-<pinref part="U24" gate="P" pin="VCC"/>
-<pinref part="SUPPLY76" gate="G$1" pin="VDD"/>
-</segment>
-<segment>
 <pinref part="U27" gate="P" pin="VCC"/>
 <pinref part="SUPPLY77" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
-<pinref part="U33" gate="P" pin="VCC"/>
-<pinref part="SUPPLY81" gate="G$1" pin="VDD"/>
-</segment>
-<segment>
 <pinref part="U29" gate="P" pin="VCC"/>
 <pinref part="SUPPLY82" gate="G$1" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="U31" gate="P" pin="VCC"/>
-<pinref part="SUPPLY83" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -18433,18 +18403,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <label x="632.46" y="337.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="6"/>
-<wire x1="274.32" y1="187.96" x2="284.48" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="187.96" x2="284.48" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="96.52" x2="248.92" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="96.52" x2="248.92" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="O1" gate="G$1" pin="GND1"/>
-<wire x1="248.92" y1="76.2" x2="259.08" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$27" class="0">
+<net name="ADJ_EMULATOR_IN_4" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="13"/>
 <wire x1="266.7" y1="177.8" x2="223.52" y2="177.8" width="0.1524" layer="91"/>
@@ -18457,14 +18416,14 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="302.26" y1="63.5" x2="325.12" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$34" class="0">
+<net name="LED_TO_PI_4" class="0">
 <segment>
 <pinref part="U12" gate="G$1" pin="INA"/>
 <wire x1="386.08" y1="93.98" x2="365.76" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="H3" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="N$35" class="0">
+<net name="LED_TO_PI_3" class="0">
 <segment>
 <wire x1="386.08" y1="96.52" x2="368.3" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="96.52" x2="368.3" y2="99.06" width="0.1524" layer="91"/>
@@ -18473,7 +18432,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <pinref part="H3" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="N$36" class="0">
+<net name="LED_TO_PI_2" class="0">
 <segment>
 <wire x1="386.08" y1="99.06" x2="370.84" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="99.06" x2="370.84" y2="104.14" width="0.1524" layer="91"/>
@@ -18482,7 +18441,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <pinref part="H3" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$37" class="0">
+<net name="LED_TO_PI_1" class="0">
 <segment>
 <wire x1="386.08" y1="101.6" x2="373.38" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="101.6" x2="373.38" y2="109.22" width="0.1524" layer="91"/>
@@ -18568,7 +18527,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="215.9" y1="314.96" x2="215.9" y2="317.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="ADJ_EMULATOR_IN_1" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="31"/>
 <wire x1="266.7" y1="154.94" x2="231.14" y2="154.94" width="0.1524" layer="91"/>
@@ -18579,7 +18538,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="309.88" y1="71.12" x2="335.28" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="ADJ_EMULATOR_IN_2" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="29"/>
 <wire x1="266.7" y1="157.48" x2="228.6" y2="157.48" width="0.1524" layer="91"/>
@@ -18592,7 +18551,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="307.34" y1="68.58" x2="330.2" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="ADJ_EMULATOR_IN_3" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="15"/>
 <wire x1="266.7" y1="175.26" x2="226.06" y2="175.26" width="0.1524" layer="91"/>
@@ -18676,7 +18635,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <junction x="469.9" y="121.92"/>
 </segment>
 </net>
-<net name="SCK" class="0">
+<net name="SCK_SPI" class="0">
 <segment>
 <pinref part="U14" gate="G$1" pin="SCK"/>
 <wire x1="535.94" y1="124.46" x2="535.94" y2="154.94" width="0.1524" layer="91"/>
@@ -18708,7 +18667,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="426.72" y1="149.86" x2="274.32" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MO" class="0">
+<net name="SO_SPI" class="0">
 <segment>
 <pinref part="U14" gate="G$1" pin="SO"/>
 <wire x1="541.02" y1="119.38" x2="541.02" y2="160.02" width="0.1524" layer="91"/>
@@ -18727,7 +18686,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <junction x="464.82" y="119.38"/>
 </segment>
 </net>
-<net name="N$70" class="0">
+<net name="CS_SPI" class="0">
 <segment>
 <pinref part="U14" gate="G$1" pin="*CS"/>
 <wire x1="543.56" y1="116.84" x2="543.56" y2="162.56" width="0.1524" layer="91"/>
@@ -18815,16 +18774,6 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="444.5" y1="243.84" x2="444.5" y2="259.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$48" class="0">
-<segment>
-<pinref part="U15" gate="G$1" pin="STBY"/>
-<wire x1="525.78" y1="203.2" x2="558.8" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="558.8" y1="203.2" x2="558.8" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="558.8" y1="241.3" x2="441.96" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="H4" gate="G$1" pin="6"/>
-<wire x1="441.96" y1="241.3" x2="441.96" y2="259.08" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$49" class="0">
 <segment>
 <pinref part="U14" gate="G$1" pin="*INT"/>
@@ -18890,7 +18839,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <segment>
 <pinref part="+3V16" gate="G$1" pin="+3V3"/>
 <pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="657.86" y1="426.72" x2="657.86" y2="424.18" width="0.1524" layer="91"/>
+<wire x1="657.86" y1="429.26" x2="657.86" y2="424.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V14" gate="G$1" pin="+3V3"/>
@@ -18972,7 +18921,54 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <segment>
 <pinref part="O1" gate="G$1" pin="VCC1"/>
 <pinref part="SUPPLY21" gate="G$1" pin="+3V3"/>
-<wire x1="256.54" y1="91.44" x2="259.08" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="254" y1="91.44" x2="259.08" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U18" gate="EN" pin="EN"/>
+<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<wire x1="698.5" y1="444.5" x2="698.5" y2="439.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U15" gate="G$1" pin="SPLIT/VIO"/>
+<wire x1="525.78" y1="195.58" x2="528.32" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="528.32" y1="195.58" x2="528.32" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="SUPPLY92" gate="G$1" pin="+3V3"/>
+<wire x1="528.32" y1="215.9" x2="528.32" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="528.32" y1="215.9" x2="543.56" y2="215.9" width="0.1524" layer="91"/>
+<junction x="528.32" y="215.9"/>
+<pinref part="C36" gate="G$1" pin="1"/>
+<wire x1="543.56" y1="215.9" x2="543.56" y2="210.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U18" gate="P" pin="VCC"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<wire x1="685.8" y1="469.9" x2="685.8" y2="467.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U20" gate="P" pin="VCC"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="680.72" y1="469.9" x2="680.72" y2="467.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U21" gate="POWER" pin="VCC"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<wire x1="675.64" y1="469.9" x2="675.64" y2="467.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U19" gate="P" pin="VCC"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<wire x1="670.56" y1="469.9" x2="670.56" y2="467.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY93" gate="G$1" pin="+3V3"/>
+<wire x1="553.72" y1="177.8" x2="553.72" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="553.72" y1="175.26" x2="553.72" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="553.72" y1="175.26" x2="546.1" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="546.1" y1="175.26" x2="546.1" y2="167.64" width="0.1524" layer="91"/>
+<junction x="553.72" y="175.26"/>
+<pinref part="U14" gate="G$1" pin="VDD"/>
+<wire x1="546.1" y1="167.64" x2="530.86" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="C35" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$52" class="0">
@@ -18981,10 +18977,10 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="454.66" y1="251.46" x2="452.12" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="452.12" y1="251.46" x2="431.8" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="431.8" y1="251.46" x2="431.8" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="431.8" y1="238.76" x2="213.36" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="238.76" x2="213.36" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="431.8" y1="238.76" x2="223.52" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="238.76" x2="223.52" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="11"/>
-<wire x1="213.36" y1="180.34" x2="266.7" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="180.34" x2="266.7" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="H4" gate="G$1" pin="10"/>
 <wire x1="452.12" y1="259.08" x2="452.12" y2="251.46" width="0.1524" layer="91"/>
 <junction x="452.12" y="251.46"/>
@@ -19019,22 +19015,18 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <pinref part="C28" gate="G$1" pin="1"/>
 <wire x1="406.4" y1="378.46" x2="408.94" y2="378.46" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="378.46" x2="408.94" y2="375.92" width="0.1524" layer="91"/>
-<pinref part="U25" gate="D" pin="IN"/>
 <wire x1="408.94" y1="378.46" x2="419.1" y2="378.46" width="0.1524" layer="91"/>
 <junction x="408.94" y="378.46"/>
+<pinref part="U17" gate="B" pin="IN"/>
 </segment>
 </net>
 <net name="INTERUPT_LINES_15V_FILTERED" class="0">
 <segment>
 <label x="439.42" y="355.6" size="1.778" layer="95"/>
-<pinref part="R44" gate="G$1" pin="1"/>
-<wire x1="472.44" y1="345.44" x2="474.98" y2="345.44" width="0.1524" layer="91"/>
-<wire x1="472.44" y1="340.36" x2="472.44" y2="345.44" width="0.1524" layer="91"/>
 <pinref part="Q11" gate="G$1" pin="D"/>
-<junction x="472.44" y="345.44"/>
 <label x="469.9" y="345.44" size="1.778" layer="95" rot="R180"/>
-<pinref part="U16" gate="D" pin="OUT"/>
-<wire x1="434.34" y1="345.44" x2="472.44" y2="345.44" width="0.1524" layer="91"/>
+<wire x1="434.34" y1="345.44" x2="474.98" y2="345.44" width="0.1524" layer="91"/>
+<pinref part="U17" gate="C" pin="OUT"/>
 </segment>
 </net>
 <net name="N$50" class="0">
@@ -19043,9 +19035,9 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <pinref part="C29" gate="G$1" pin="1"/>
 <wire x1="406.4" y1="345.44" x2="408.94" y2="345.44" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="345.44" x2="408.94" y2="342.9" width="0.1524" layer="91"/>
-<pinref part="U16" gate="D" pin="IN"/>
 <wire x1="408.94" y1="345.44" x2="419.1" y2="345.44" width="0.1524" layer="91"/>
 <junction x="408.94" y="345.44"/>
+<pinref part="U17" gate="C" pin="IN"/>
 </segment>
 </net>
 <net name="N$53" class="0">
@@ -19054,9 +19046,9 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <pinref part="C30" gate="G$1" pin="1"/>
 <wire x1="406.4" y1="411.48" x2="408.94" y2="411.48" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="411.48" x2="408.94" y2="408.94" width="0.1524" layer="91"/>
-<pinref part="U17" gate="D" pin="IN"/>
 <wire x1="408.94" y1="411.48" x2="419.1" y2="411.48" width="0.1524" layer="91"/>
 <junction x="408.94" y="411.48"/>
+<pinref part="U17" gate="A" pin="IN"/>
 </segment>
 </net>
 <net name="DRIVE_DISBALE_SIGNAL_3V3" class="0">
@@ -19125,9 +19117,9 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="563.88" y1="304.8" x2="312.42" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="304.8" x2="312.42" y2="127" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="127" x2="259.08" y2="127" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="37"/>
-<wire x1="259.08" y1="127" x2="259.08" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="147.32" x2="266.7" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="127" x2="259.08" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="35"/>
+<wire x1="259.08" y1="149.86" x2="266.7" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="POR" class="0">
@@ -19177,7 +19169,6 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <segment>
 <pinref part="TP3" gate="G$1" pin="TP"/>
 <wire x1="688.34" y1="375.92" x2="688.34" y2="378.46" width="0.1524" layer="91"/>
-<pinref part="U24" gate="A" pin="IN"/>
 <wire x1="698.5" y1="378.46" x2="688.34" y2="378.46" width="0.1524" layer="91"/>
 <junction x="688.34" y="378.46"/>
 <pinref part="R28" gate="G$1" pin="1"/>
@@ -19187,27 +19178,10 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <label x="661.416" y="377.698" size="1.778" layer="95" font="vector"/>
 <wire x1="657.86" y1="378.46" x2="688.34" y2="378.46" width="0.1524" layer="91"/>
 <junction x="657.86" y="378.46"/>
+<pinref part="U22" gate="B" pin="IN"/>
 </segment>
 </net>
 <net name="RTDS_SOURCE" class="0">
-<segment>
-<pinref part="U23" gate="A" pin="S"/>
-<pinref part="TP30" gate="G$1" pin="TP"/>
-<wire x1="744.22" y1="400.05" x2="744.22" y2="401.32" width="0.1524" layer="91"/>
-<wire x1="746.76" y1="400.05" x2="744.22" y2="400.05" width="0.1524" layer="91"/>
-<junction x="744.22" y="400.05"/>
-<pinref part="U26" gate="A" pin="D"/>
-<wire x1="744.22" y1="391.16" x2="744.22" y2="400.05" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U26" gate="A" pin="S"/>
-<pinref part="TP1" gate="G$1" pin="TP"/>
-<wire x1="744.22" y1="367.03" x2="744.22" y2="368.3" width="0.1524" layer="91"/>
-<wire x1="746.76" y1="367.03" x2="744.22" y2="367.03" width="0.1524" layer="91"/>
-<junction x="744.22" y="367.03"/>
-<pinref part="U28" gate="A" pin="D"/>
-<wire x1="744.22" y1="358.14" x2="744.22" y2="367.03" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <label x="796.544" y="400.558" size="1.778" layer="95"/>
 <pinref part="U30" gate="A" pin="D"/>
@@ -19265,7 +19239,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="726.44" y1="375.92" x2="731.52" y2="375.92" width="0.1524" layer="91"/>
 <wire x1="726.44" y1="373.38" x2="726.44" y2="375.92" width="0.1524" layer="91"/>
 <junction x="726.44" y="375.92"/>
-<pinref part="U24" gate="A" pin="G"/>
+<pinref part="U22" gate="B" pin="G"/>
 </segment>
 </net>
 <net name="N$56" class="0">
@@ -19381,7 +19355,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="492.76" y1="469.9" x2="518.16" y2="469.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RTDS_SOURCE2" class="0">
+<net name="ACUMULATOR_CONTACTOR_SIGNAL" class="0">
 <segment>
 <pinref part="H4" gate="G$1" pin="5"/>
 <wire x1="439.42" y1="233.68" x2="439.42" y2="259.08" width="0.1524" layer="91"/>
@@ -19404,7 +19378,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="840.74" y1="429.26" x2="845.82" y2="429.26" width="0.1524" layer="91"/>
 <wire x1="840.74" y1="426.72" x2="840.74" y2="429.26" width="0.1524" layer="91"/>
 <junction x="840.74" y="429.26"/>
-<pinref part="U31" gate="A" pin="G"/>
+<pinref part="U27" gate="B" pin="G"/>
 </segment>
 </net>
 <net name="N$64" class="0">
@@ -19415,7 +19389,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="840.74" y1="342.9" x2="845.82" y2="342.9" width="0.1524" layer="91"/>
 <wire x1="840.74" y1="340.36" x2="840.74" y2="342.9" width="0.1524" layer="91"/>
 <junction x="840.74" y="342.9"/>
-<pinref part="U33" gate="A" pin="G"/>
+<pinref part="U29" gate="B" pin="G"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -19447,9 +19421,9 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="561.34" y1="307.34" x2="309.88" y2="307.34" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="307.34" x2="309.88" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="129.54" x2="261.62" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="39"/>
-<wire x1="261.62" y1="129.54" x2="261.62" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="144.78" x2="266.7" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="129.54" x2="261.62" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="37"/>
+<wire x1="261.62" y1="147.32" x2="266.7" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AMS15V" class="0">
@@ -19482,26 +19456,18 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 </net>
 <net name="IMD_15V_FILTERED" class="0">
 <segment>
-<pinref part="U17" gate="D" pin="OUT"/>
 <label x="439.42" y="411.48" size="1.778" layer="95"/>
-<pinref part="R40" gate="G$1" pin="1"/>
-<wire x1="472.44" y1="411.48" x2="474.98" y2="411.48" width="0.1524" layer="91"/>
-<wire x1="472.44" y1="416.56" x2="472.44" y2="411.48" width="0.1524" layer="91"/>
 <pinref part="Q9" gate="G$1" pin="D"/>
-<junction x="472.44" y="411.48"/>
 <label x="469.9" y="411.48" size="1.778" layer="95" rot="R180"/>
-<wire x1="434.34" y1="411.48" x2="472.44" y2="411.48" width="0.1524" layer="91"/>
+<wire x1="434.34" y1="411.48" x2="474.98" y2="411.48" width="0.1524" layer="91"/>
+<pinref part="U17" gate="A" pin="OUT"/>
 </segment>
 </net>
 <net name="AMS_15V_FILTERED" class="0">
 <segment>
-<pinref part="R42" gate="G$1" pin="1"/>
-<wire x1="472.44" y1="378.46" x2="474.98" y2="378.46" width="0.1524" layer="91"/>
-<wire x1="472.44" y1="373.38" x2="472.44" y2="378.46" width="0.1524" layer="91"/>
 <pinref part="Q10" gate="G$1" pin="D"/>
-<junction x="472.44" y="378.46"/>
-<pinref part="U25" gate="D" pin="OUT"/>
-<wire x1="472.44" y1="378.46" x2="434.34" y2="378.46" width="0.1524" layer="91"/>
+<wire x1="474.98" y1="378.46" x2="434.34" y2="378.46" width="0.1524" layer="91"/>
+<pinref part="U17" gate="B" pin="OUT"/>
 </segment>
 </net>
 <net name="IMD_BACK_TO_PI" class="0">
@@ -19547,7 +19513,6 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="281.94" y1="505.46" x2="789.94" y2="505.46" width="0.1524" layer="91"/>
 <pinref part="TP14" gate="G$1" pin="TP"/>
 <wire x1="802.64" y1="429.26" x2="802.64" y2="431.8" width="0.1524" layer="91"/>
-<pinref part="U31" gate="A" pin="IN"/>
 <wire x1="812.8" y1="431.8" x2="802.64" y2="431.8" width="0.1524" layer="91"/>
 <junction x="802.64" y="431.8"/>
 <wire x1="802.64" y1="431.8" x2="792.48" y2="431.8" width="0.1524" layer="91"/>
@@ -19555,6 +19520,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="792.48" y1="431.8" x2="792.48" y2="447.04" width="0.1524" layer="91"/>
 <wire x1="792.48" y1="447.04" x2="789.94" y2="447.04" width="0.1524" layer="91"/>
 <wire x1="789.94" y1="447.04" x2="789.94" y2="505.46" width="0.1524" layer="91"/>
+<pinref part="U27" gate="B" pin="IN"/>
 </segment>
 </net>
 <net name="BSPD_FET_SIGNAL2" class="0">
@@ -19587,7 +19553,6 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <wire x1="347.98" y1="213.36" x2="287.02" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="TP18" gate="G$1" pin="TP"/>
 <wire x1="802.64" y1="342.9" x2="802.64" y2="345.44" width="0.1524" layer="91"/>
-<pinref part="U33" gate="A" pin="IN"/>
 <wire x1="812.8" y1="345.44" x2="802.64" y2="345.44" width="0.1524" layer="91"/>
 <junction x="802.64" y="345.44"/>
 <wire x1="784.86" y1="345.44" x2="802.64" y2="345.44" width="0.1524" layer="91"/>
@@ -19595,6 +19560,7 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <label x="816.864" y="354.076" size="1.778" layer="95" rot="R180"/>
 <wire x1="784.86" y1="500.38" x2="287.02" y2="500.38" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="213.36" x2="287.02" y2="500.38" width="0.1524" layer="91"/>
+<pinref part="U29" gate="B" pin="IN"/>
 </segment>
 </net>
 <net name="+5V/1" class="0">
@@ -19635,28 +19601,19 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <pinref part="SUPPLY35" gate="G$1" pin="+5V/1"/>
 </segment>
 <segment>
-<pinref part="U14" gate="G$1" pin="VDD"/>
-<wire x1="530.86" y1="167.64" x2="574.04" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="574.04" y1="167.64" x2="574.04" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="574.04" y1="152.4" x2="574.04" y2="144.78" width="0.1524" layer="91"/>
-<junction x="574.04" y="167.64"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="571.5" y1="152.4" x2="574.04" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="571.5" y1="144.78" x2="574.04" y2="144.78" width="0.1524" layer="91"/>
 <junction x="574.04" y="152.4"/>
-<wire x1="574.04" y1="167.64" x2="574.04" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="152.4" x2="574.04" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="U15" gate="G$1" pin="VDD"/>
 <wire x1="574.04" y1="182.88" x2="574.04" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="198.12" x2="490.22" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="490.22" y1="198.12" x2="490.22" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="490.22" y1="182.88" x2="528.32" y2="182.88" width="0.1524" layer="91"/>
 <junction x="574.04" y="182.88"/>
-<pinref part="U15" gate="G$1" pin="SPLIT/VIO"/>
-<wire x1="528.32" y1="182.88" x2="574.04" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="525.78" y1="195.58" x2="528.32" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="528.32" y1="195.58" x2="528.32" y2="182.88" width="0.1524" layer="91"/>
-<junction x="528.32" y="182.88"/>
+<wire x1="490.22" y1="182.88" x2="574.04" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="561.34" y1="134.62" x2="574.04" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="574.04" y1="134.62" x2="574.04" y2="144.78" width="0.1524" layer="91"/>
@@ -19674,11 +19631,16 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
-<wire x1="279.4" y1="193.04" x2="274.32" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="193.04" x2="279.4" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="SUPPLY23" gate="G$1" pin="+5V/1"/>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="279.4" y1="193.04" x2="274.32" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="190.5" x2="279.4" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="190.5" x2="279.4" y2="193.04" width="0.1524" layer="91"/>
+<junction x="279.4" y="193.04"/>
 </segment>
 </net>
-<net name="N$1000" class="0">
+<net name="SCL" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="SCL"/>
 <wire x1="279.4" y1="38.1" x2="287.02" y2="38.1" width="0.1524" layer="91"/>
@@ -19704,88 +19666,84 @@ But invoke doesnt work?!?!?!?!?!?!?!?!?</text>
 <pinref part="U10" gate="G$1" pin="EN"/>
 </segment>
 </net>
+<net name="SDA1_I2C" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="266.7" y1="190.5" x2="243.84" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="190.5" x2="243.84" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="O1" gate="G$1" pin="SDA1"/>
+<wire x1="243.84" y1="121.92" x2="243.84" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="86.36" x2="259.08" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="R34" gate="G$1" pin="2"/>
+<junction x="243.84" y="121.92"/>
+</segment>
+</net>
+<net name="FET_CONNECT_1" class="0">
+<segment>
+<pinref part="U23" gate="A" pin="S"/>
+<pinref part="TP30" gate="G$1" pin="TP"/>
+<wire x1="744.22" y1="400.05" x2="744.22" y2="401.32" width="0.1524" layer="91"/>
+<wire x1="746.76" y1="400.05" x2="744.22" y2="400.05" width="0.1524" layer="91"/>
+<junction x="744.22" y="400.05"/>
+<pinref part="U26" gate="A" pin="D"/>
+<wire x1="744.22" y1="391.16" x2="744.22" y2="400.05" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="FET_CONNECT_2" class="0">
+<segment>
+<pinref part="U26" gate="A" pin="S"/>
+<pinref part="TP1" gate="G$1" pin="TP"/>
+<wire x1="744.22" y1="367.03" x2="744.22" y2="368.3" width="0.1524" layer="91"/>
+<wire x1="746.76" y1="367.03" x2="744.22" y2="367.03" width="0.1524" layer="91"/>
+<junction x="744.22" y="367.03"/>
+<pinref part="U28" gate="A" pin="D"/>
+<wire x1="744.22" y1="358.14" x2="744.22" y2="367.03" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
 <approved hash="104,1,490.22,147.32,U14,VSS,GND1,,,"/>
-<approved hash="104,1,530.86,167.64,U14,VDD,+5V/1,,,"/>
+<approved hash="104,1,530.86,167.64,U14,VDD,+3V3,,,"/>
 <approved hash="104,1,495.3,200.66,U15,VSS,GND1,,,"/>
 <approved hash="104,1,495.3,198.12,U15,VDD,+5V/1,,,"/>
-<approved hash="114,1,426.72,378.756,U25,A,IN,,,"/>
-<approved hash="114,1,426.72,378.756,U25,B,IN,,,"/>
-<approved hash="114,1,426.72,378.756,U25,C,IN,,,"/>
-<approved hash="114,1,426.72,378.756,U25,E,IN,,,"/>
-<approved hash="114,1,426.72,378.756,U25,F,IN,,,"/>
-<approved hash="104,1,403.86,434.34,U25POWER,GND,GND1,,,"/>
-<approved hash="104,1,403.86,464.82,U25POWER,VCC,VDD,,,"/>
-<approved hash="114,1,426.72,345.736,U16,A,IN,,,"/>
-<approved hash="114,1,426.72,345.736,U16,B,IN,,,"/>
-<approved hash="114,1,426.72,345.736,U16,C,IN,,,"/>
-<approved hash="114,1,426.72,345.736,U16,E,IN,,,"/>
-<approved hash="114,1,426.72,345.736,U16,F,IN,,,"/>
-<approved hash="104,1,408.94,434.34,U16POWER,GND,GND1,,,"/>
-<approved hash="104,1,408.94,464.82,U16POWER,VCC,VDD,,,"/>
-<approved hash="114,1,426.72,411.776,U17,A,IN,,,"/>
-<approved hash="114,1,426.72,411.776,U17,B,IN,,,"/>
-<approved hash="114,1,426.72,411.776,U17,C,IN,,,"/>
-<approved hash="114,1,426.72,411.776,U17,E,IN,,,"/>
-<approved hash="114,1,426.72,411.776,U17,F,IN,,,"/>
+<approved hash="114,1,398.78,449.58,U17,D,IN,,,"/>
+<approved hash="114,1,398.78,449.58,U17,E,IN,,,"/>
+<approved hash="114,1,398.78,449.58,U17,F,IN,,,"/>
 <approved hash="104,1,398.78,434.34,U17POWER,GND,GND1,,,"/>
 <approved hash="104,1,398.78,464.82,U17POWER,VCC,VDD,,,"/>
 <approved hash="114,1,645.16,413.872,U18,D,S,,,"/>
 <approved hash="114,1,645.16,413.872,U18,D,R,,,"/>
 <approved hash="104,1,685.8,436.88,U18P,GND,GND1,,,"/>
-<approved hash="104,1,685.8,467.36,U18P,VCC,VDD,,,"/>
-<approved hash="202,1,701.04,439.42,U18EN,EN,,,,"/>
+<approved hash="104,1,685.8,467.36,U18P,VCC,+3V3,,,"/>
 <approved hash="114,1,596.9,354.563,U19,D,IN1,,,"/>
 <approved hash="114,1,596.9,354.563,U19,D,IN2,,,"/>
 <approved hash="104,1,670.56,436.88,U19P,GND,GND1,,,"/>
-<approved hash="104,1,670.56,467.36,U19P,VCC,VDD,,,"/>
+<approved hash="104,1,670.56,467.36,U19P,VCC,+3V3,,,"/>
 <approved hash="114,1,621.03,339.238,U20,D,IN1,,,"/>
 <approved hash="114,1,621.03,339.238,U20,D,IN2,,,"/>
 <approved hash="104,1,680.72,436.88,U20P,GND,GND1,,,"/>
-<approved hash="104,1,680.72,467.36,U20P,VCC,VDD,,,"/>
+<approved hash="104,1,680.72,467.36,U20P,VCC,+3V3,,,"/>
 <approved hash="114,1,594.36,342.117,U21,E,IN,,,"/>
 <approved hash="114,1,594.36,342.117,U21,F,IN,,,"/>
 <approved hash="104,1,675.64,436.88,U21POWER,GND,GND1,,,"/>
-<approved hash="104,1,675.64,467.36,U21POWER,VCC,VDD,,,"/>
-<approved hash="114,1,709.93,411.332,U22,B,IN,,,"/>
-<approved hash="114,1,709.93,411.332,U22,B,D,,,"/>
+<approved hash="104,1,675.64,467.36,U21POWER,VCC,+3V3,,,"/>
 <approved hash="104,1,711.2,436.88,U22P,GND,GND1,,,"/>
 <approved hash="104,1,711.2,467.36,U22P,VCC,VDD,,,"/>
-<approved hash="114,1,709.93,378.312,U24,B,IN,,,"/>
-<approved hash="114,1,709.93,378.312,U24,B,D,,,"/>
-<approved hash="104,1,716.28,436.88,U24P,GND,GND1,,,"/>
-<approved hash="104,1,716.28,467.36,U24P,VCC,VDD,,,"/>
-<approved hash="114,1,709.93,345.292,U27,B,IN,,,"/>
-<approved hash="114,1,709.93,345.292,U27,B,D,,,"/>
-<approved hash="104,1,721.36,436.88,U27P,GND,GND1,,,"/>
-<approved hash="104,1,721.36,467.36,U27P,VCC,VDD,,,"/>
-<approved hash="114,1,824.23,385.932,U29,B,IN,,,"/>
-<approved hash="114,1,824.23,385.932,U29,B,D,,,"/>
+<approved hash="104,1,718.82,436.88,U27P,GND,GND1,,,"/>
+<approved hash="104,1,718.82,467.36,U27P,VCC,VDD,,,"/>
 <approved hash="104,1,815.34,452.12,U29P,GND,GND1,,,"/>
 <approved hash="104,1,815.34,482.6,U29P,VCC,VDD,,,"/>
 <approved hash="104,1,520.7,452.12,U49,GND,GND1,,,"/>
 <approved hash="104,1,558.8,459.74,U49,VCC,VDD,,,"/>
-<approved hash="114,1,824.23,431.652,U31,B,IN,,,"/>
-<approved hash="114,1,824.23,431.652,U31,B,D,,,"/>
-<approved hash="104,1,820.42,452.12,U31P,GND,GND1,,,"/>
-<approved hash="104,1,820.42,482.6,U31P,VCC,VDD,,,"/>
-<approved hash="114,1,824.23,345.292,U33,B,IN,,,"/>
-<approved hash="114,1,824.23,345.292,U33,B,D,,,"/>
-<approved hash="104,1,810.26,452.12,U33P,GND,GND1,,,"/>
-<approved hash="104,1,810.26,482.6,U33P,VCC,VDD,,,"/>
-<approved hash="111,1,246.38,121.92,N$10,,,,,"/>
+<approved hash="111,1,246.38,121.92,SCL1_I2C,,,,,"/>
 <approved hash="113,1,270.468,170.311,JP1,,,,,"/>
 <approved hash="113,1,554.99,152.078,LED29,,,,,"/>
 <approved hash="113,1,554.99,144.458,LED30,,,,,"/>
 <approved hash="113,1,438.298,262.065,H4,,,,,"/>
 <approved hash="113,1,594.36,342.117,U21,,,,,"/>
 <approved hash="113,1,466.746,152.4,Y1,,,,,"/>
-<approved hash="115,1,255.27,190.5,N$9,,,,,"/>
-<approved hash="115,1,744.22,367.665,RTDS_SOURCE,,,,,"/>
-<approved hash="115,1,744.22,400.685,RTDS_SOURCE,,,,,"/>
 </errors>
 </schematic>
 </drawing>
