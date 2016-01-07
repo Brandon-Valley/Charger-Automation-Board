@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16871,6 +16871,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C36" library="rcl" deviceset="C-US" device="C0805" value="1uF">
 <attribute name="PARTNO" value="EMK212B7105KG-T"/>
 </part>
+<part name="SUPPLY61" library="supply2" deviceset="GND1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17512,6 +17513,7 @@ In= Timer ADJ emulator</text>
 <instance part="C36" gate="G$1" x="543.56" y="208.28">
 <attribute name="PARTNO" x="543.56" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="SUPPLY61" gate="G$1" x="254" y="144.78" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -18183,6 +18185,11 @@ In= Timer ADJ emulator</text>
 <pinref part="SUPPLY39" gate="G$1" pin="GND1"/>
 <pinref part="C35" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="SUPPLY61" gate="G$1" pin="GND1"/>
+<pinref part="JP1" gate="A" pin="39"/>
+<wire x1="256.54" y1="144.78" x2="266.7" y2="144.78" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$19" class="0">
 <segment>
@@ -18225,17 +18232,17 @@ In= Timer ADJ emulator</text>
 <net name="N$25" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="OUT"/>
-<wire x1="279.4" y1="20.32" x2="297.18" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="H2" gate="G$1" pin="8"/>
-<wire x1="297.18" y1="20.32" x2="297.18" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="20.32" x2="299.72" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="H2" gate="G$1" pin="7"/>
+<wire x1="299.72" y1="20.32" x2="299.72" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="OUT"/>
-<pinref part="H2" gate="G$1" pin="7"/>
-<wire x1="279.4" y1="48.26" x2="299.72" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="48.26" x2="299.72" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="48.26" x2="297.18" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="H2" gate="G$1" pin="8"/>
+<wire x1="297.18" y1="48.26" x2="297.18" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -18414,6 +18421,7 @@ In= Timer ADJ emulator</text>
 <wire x1="325.12" y1="63.5" x2="325.12" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="55.88" x2="335.28" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="63.5" x2="325.12" y2="63.5" width="0.1524" layer="91"/>
+<label x="231.14" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED_TO_PI_4" class="0">
@@ -18562,6 +18570,7 @@ In= Timer ADJ emulator</text>
 <wire x1="327.66" y1="66.04" x2="327.66" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="60.96" x2="335.28" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="66.04" x2="327.66" y2="66.04" width="0.1524" layer="91"/>
+<label x="231.14" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -18772,6 +18781,7 @@ In= Timer ADJ emulator</text>
 <wire x1="561.34" y1="243.84" x2="444.5" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="H4" gate="G$1" pin="7"/>
 <wire x1="444.5" y1="243.84" x2="444.5" y2="259.08" width="0.1524" layer="91"/>
+<label x="444.5" y="254" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -18984,13 +18994,11 @@ In= Timer ADJ emulator</text>
 <pinref part="H4" gate="G$1" pin="10"/>
 <wire x1="452.12" y1="259.08" x2="452.12" y2="251.46" width="0.1524" layer="91"/>
 <junction x="452.12" y="251.46"/>
+<label x="233.68" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
-<pinref part="H4" gate="G$1" pin="3"/>
-<wire x1="434.34" y1="259.08" x2="434.34" y2="254" width="0.1524" layer="91"/>
-<wire x1="434.34" y1="254" x2="436.88" y2="254" width="0.1524" layer="91"/>
 <pinref part="H4" gate="G$1" pin="4"/>
 <wire x1="436.88" y1="254" x2="436.88" y2="259.08" width="0.1524" layer="91"/>
 </segment>
@@ -19368,6 +19376,7 @@ In= Timer ADJ emulator</text>
 <wire x1="858.52" y1="411.48" x2="914.4" y2="411.48" width="0.1524" layer="91"/>
 <wire x1="914.4" y1="411.48" x2="914.4" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="914.4" y1="233.68" x2="439.42" y2="233.68" width="0.1524" layer="91"/>
+<label x="439.42" y="254" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="N$59" class="0">
@@ -19698,6 +19707,12 @@ In= Timer ADJ emulator</text>
 <junction x="744.22" y="367.03"/>
 <pinref part="U28" gate="A" pin="D"/>
 <wire x1="744.22" y1="358.14" x2="744.22" y2="367.03" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="H4" gate="G$1" pin="3"/>
+<wire x1="434.34" y1="259.08" x2="434.34" y2="254" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
