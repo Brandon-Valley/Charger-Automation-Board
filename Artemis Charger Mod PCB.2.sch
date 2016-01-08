@@ -16931,6 +16931,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PARTNO" value="GRM21BR71E104KA01L"/>
 </part>
 <part name="SUPPLY58" library="supply1" deviceset="+3V3" device=""/>
+<part name="J6" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17000,6 +17001,8 @@ In= Timer ADJ emulator</text>
       in charger enclosure</text>
 <text x="876.3" y="416.56" size="1.778" layer="91">&lt;-- To contactor in Acumulator</text>
 <text x="500.38" y="241.3" size="6.4516" layer="95">CAN &lt;---&gt; SPI</text>
+<text x="911.86" y="332.74" size="1.778" layer="91" rot="R90">DC Contactors</text>
+<text x="911.86" y="378.46" size="1.778" layer="91" rot="R90">AC Contactors</text>
 </plain>
 <instances>
 <instance part="C12" gate="G$1" x="-25.4" y="55.88">
@@ -17471,7 +17474,7 @@ In= Timer ADJ emulator</text>
 <instance part="J4" gate="G$1" x="904.24" y="350.52"/>
 <instance part="J5" gate="G$1" x="904.24" y="340.36"/>
 <instance part="SUPPLY16" gate="G$1" x="891.54" y="373.38"/>
-<instance part="SUPPLY17" gate="G$1" x="891.54" y="332.74"/>
+<instance part="SUPPLY17" gate="G$1" x="891.54" y="304.8"/>
 <instance part="SUPPLY18" gate="G$1" x="695.96" y="370.84" rot="R180"/>
 <instance part="SUPPLY19" gate="G$1" x="695.96" y="403.86" rot="R180"/>
 <instance part="SUPPLY51" gate="G$1" x="810.26" y="337.82" rot="R180"/>
@@ -17636,6 +17639,7 @@ In= Timer ADJ emulator</text>
 <attribute name="MPN" x="393.7" y="447.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY58" gate="G$1" x="546.1" y="177.8"/>
+<instance part="J6" gate="G$1" x="904.24" y="325.12"/>
 </instances>
 <busses>
 </busses>
@@ -18224,7 +18228,11 @@ In= Timer ADJ emulator</text>
 <wire x1="891.54" y1="350.52" x2="891.54" y2="340.36" width="0.1524" layer="91"/>
 <wire x1="891.54" y1="340.36" x2="896.62" y2="340.36" width="0.1524" layer="91"/>
 <junction x="891.54" y="340.36"/>
-<wire x1="891.54" y1="340.36" x2="891.54" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="891.54" y1="340.36" x2="891.54" y2="325.12" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="2"/>
+<wire x1="891.54" y1="325.12" x2="891.54" y2="307.34" width="0.1524" layer="91"/>
+<wire x1="891.54" y1="325.12" x2="896.62" y2="325.12" width="0.1524" layer="91"/>
+<junction x="891.54" y="325.12"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
@@ -19534,6 +19542,10 @@ In= Timer ADJ emulator</text>
 <wire x1="883.92" y1="330.2" x2="883.92" y2="347.98" width="0.1524" layer="91"/>
 <wire x1="883.92" y1="347.98" x2="886.46" y2="347.98" width="0.1524" layer="91"/>
 <junction x="886.46" y="347.98"/>
+<wire x1="886.46" y1="342.9" x2="886.46" y2="327.66" width="0.1524" layer="91"/>
+<junction x="886.46" y="342.9"/>
+<pinref part="J6" gate="G$1" pin="1"/>
+<wire x1="886.46" y1="327.66" x2="896.62" y2="327.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AMS_BACK_TO_PI" class="0">
