@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="11" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="13" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -2688,6 +2688,7 @@ einem neuen Namen ab.</description>
 <element name="JP1" library="pinhead" package="2X20" value="" x="68.58" y="73.025" smashed="yes" rot="R180">
 <attribute name="NAME" x="71.12" y="77.47" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="93.98" y="77.47" size="1.27" layer="27" rot="R180"/>
+<attribute name="PARTNO" value="68602-220HLF" x="68.58" y="73.025" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="L1" library="FormE" package="SRP6540" value="4.7uH" x="6.985" y="17.145" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="SRP6540-4R7M" x="6.985" y="17.145" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2793,7 +2794,7 @@ einem neuen Namen ab.</description>
 <attribute name="PARTNO" value="ISO7340CDWR" x="29.21" y="61.595" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C9" library="adafruit" package="C0805" value="0.1uF" x="46.355" y="24.13" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="GRM21BR71E104KA01L" x="61.595" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="5025841170" x="61.595" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="47.244" y="17.526" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="44.069" y="25.019" size="1.27" layer="27" rot="R270"/>
 </element>

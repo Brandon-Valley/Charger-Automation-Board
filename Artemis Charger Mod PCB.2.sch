@@ -16400,7 +16400,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U3" library="FormE" deviceset="MAX5812" device="M" value="MAX5812">
 <attribute name="PARTNO" value="MAX5812LEUT+T"/>
 </part>
-<part name="JP1" library="pinhead" deviceset="PINHD-2X20" device=""/>
+<part name="JP1" library="pinhead" deviceset="PINHD-2X20" device="">
+<attribute name="PARTNO" value="68602-220HLF"/>
+</part>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="LED3" library="FormE" deviceset="LED" device="CHIPLED_0805" value="GREEN">
 <attribute name="PARTNO" value="598-8170-107F"/>
@@ -16498,7 +16500,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY26" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="C9" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF">
-<attribute name="PARTNO" value="GRM21BR71E104KA01L"/>
+<attribute name="PARTNO" value="5025841170"/>
 </part>
 <part name="R7" library="adafruit" deviceset="R-US_" device="R0805" value="54.9k">
 <attribute name="PARTNO" value="ERA-6AEB5492V"/>
@@ -17054,7 +17056,9 @@ In= Timer ADJ emulator</text>
 <attribute name="NAME" x="269.24" y="25.4" size="1.778" layer="95"/>
 <attribute name="PARTNO" x="269.24" y="15.24" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="JP1" gate="A" x="269.24" y="170.18"/>
+<instance part="JP1" gate="A" x="269.24" y="170.18">
+<attribute name="PARTNO" x="269.24" y="170.18" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+1" gate="1" x="180.34" y="73.66"/>
 <instance part="LED3" gate="G$1" x="215.9" y="53.34">
 <attribute name="PARTNO" x="215.9" y="53.34" size="1.778" layer="96" display="off"/>
