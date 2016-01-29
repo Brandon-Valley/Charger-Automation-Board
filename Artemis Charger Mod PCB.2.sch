@@ -2739,7 +2739,7 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="MAX5812" constant="no"/>
+<attribute name="VALUE" value="MAX5812LEUT+TCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -16397,7 +16397,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="O1" library="FormE" deviceset="ISO1541" device="">
 <attribute name="PARTNO" value="ISO1541DR"/>
 </part>
-<part name="U3" library="FormE" deviceset="MAX5812" device="M" value="MAX5812">
+<part name="U3" library="FormE" deviceset="MAX5812" device="M" value="MAX5812LEUT+TCT-ND">
 <attribute name="PARTNO" value="MAX5812LEUT+T"/>
 </part>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X20" device="">
@@ -16412,7 +16412,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="P+21" library="supply1" deviceset="+5V" device=""/>
-<part name="U8" library="FormE" deviceset="MAX5812" device="M" value="MAX5812">
+<part name="U8" library="FormE" deviceset="MAX5812" device="M" value="MAX5812LEUT+TCT-ND">
 <attribute name="PARTNO" value="MAX5812LEUT+T"/>
 </part>
 <part name="C1" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF">
@@ -16474,8 +16474,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY4" library="supply2" deviceset="GND1" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="GND1" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND1" device=""/>
-<part name="H2" library="FormE" deviceset="MOLEX_CLIKMATE-8-VERTICAL" device=""/>
-<part name="J2" library="FormE" deviceset="MOLEX_CLICKMATE-4-VERTICAL" device=""/>
+<part name="H2" library="FormE" deviceset="MOLEX_CLIKMATE-8-VERTICAL" device="">
+<attribute name="PARTNO" value="5025840870"/>
+</part>
+<part name="J2" library="FormE" deviceset="MOLEX_CLICKMATE-4-VERTICAL" device="">
+<attribute name="PARTNO" value="5040500491"/>
+</part>
 <part name="SUPPLY22" library="supply2" deviceset="GND1" device=""/>
 <part name="SUPPLY7" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY20" library="supply1" deviceset="+3V3" device=""/>
@@ -16553,7 +16557,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY34" library="supply2" deviceset="+5V/1" device=""/>
 <part name="SUPPLY35" library="supply2" deviceset="+5V/1" device=""/>
 <part name="SUPPLY36" library="supply2" deviceset="VDD" device=""/>
-<part name="H3" library="FormE" deviceset="MOLEX_CLIKMATE-8-VERTICAL" device=""/>
+<part name="H3" library="FormE" deviceset="MOLEX_CLIKMATE-8-VERTICAL" device="">
+<attribute name="PARTNO" value="5025840870"/>
+</part>
 <part name="U14" library="FormE" deviceset="MCP2515" device="-TSSOP">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCP2515-E/ST"/>
@@ -16626,7 +16632,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="OC_NEWARK" value="unknown"/>
 <attribute name="PARTNO" value="ERJ-6ENF1200V"/>
 </part>
-<part name="H4" library="FormE" deviceset="MOLEX_CLICKMATE-11-VERTICAL" device="-VERTICAL"/>
+<part name="H4" library="FormE" deviceset="MOLEX_CLICKMATE-11-VERTICAL" device="-VERTICAL">
+<attribute name="PARTNO" value="5025841170"/>
+</part>
 <part name="SUPPLY38" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY37" library="supply2" deviceset="+5V/1" device=""/>
 <part name="SUPPLY40" library="supply2" deviceset="+5V/1" device=""/>
@@ -16798,10 +16806,18 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY11" library="supply2" deviceset="GND1" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="GND1" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND1" device=""/>
-<part name="J1" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device=""/>
-<part name="J3" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device=""/>
-<part name="J4" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device=""/>
-<part name="J5" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device=""/>
+<part name="J1" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device="">
+<attribute name="PARTNO" value="5025840270"/>
+</part>
+<part name="J3" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device="">
+<attribute name="PARTNO" value="5025840270"/>
+</part>
+<part name="J4" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device="">
+<attribute name="PARTNO" value="5025840270"/>
+</part>
+<part name="J5" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device="">
+<attribute name="PARTNO" value="5025840270"/>
+</part>
 <part name="SUPPLY16" library="supply2" deviceset="GND1" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND1" device=""/>
 <part name="SUPPLY18" library="supply2" deviceset="VDD" device=""/>
@@ -16930,7 +16946,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PARTNO" value="GRM21BR71E104KA01L"/>
 </part>
 <part name="SUPPLY58" library="supply1" deviceset="+3V3" device=""/>
-<part name="J6" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device=""/>
+<part name="J6" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device="">
+<attribute name="PARTNO" value="5025840270"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -17131,8 +17149,12 @@ In= Timer ADJ emulator</text>
 <instance part="SUPPLY4" gate="G$1" x="35.56" y="106.68"/>
 <instance part="SUPPLY6" gate="G$1" x="215.9" y="109.22"/>
 <instance part="SUPPLY5" gate="G$1" x="-5.08" y="124.46"/>
-<instance part="H2" gate="G$1" x="307.34" y="15.24" rot="R270"/>
-<instance part="J2" gate="G$1" x="-25.4" y="172.72" rot="R90"/>
+<instance part="H2" gate="G$1" x="307.34" y="15.24" rot="R270">
+<attribute name="PARTNO" x="307.34" y="15.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J2" gate="G$1" x="-25.4" y="172.72" rot="R90">
+<attribute name="PARTNO" x="-25.4" y="172.72" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY22" gate="G$1" x="-33.02" y="162.56" rot="R270"/>
 <instance part="SUPPLY7" gate="G$1" x="180.34" y="152.4"/>
 <instance part="SUPPLY20" gate="G$1" x="215.9" y="139.7"/>
@@ -17210,7 +17232,9 @@ In= Timer ADJ emulator</text>
 <instance part="SUPPLY34" gate="G$1" x="180.34" y="342.9"/>
 <instance part="SUPPLY35" gate="G$1" x="215.9" y="330.2"/>
 <instance part="SUPPLY36" gate="G$1" x="-35.56" y="332.74"/>
-<instance part="H3" gate="G$1" x="386.08" y="93.98"/>
+<instance part="H3" gate="G$1" x="386.08" y="93.98">
+<attribute name="PARTNO" x="386.08" y="93.98" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U14" gate="G$1" x="510.54" y="157.48">
 <attribute name="PARTNO" x="510.54" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="OC_NEWARK" x="510.54" y="157.48" size="1.778" layer="96" display="off"/>
@@ -17287,7 +17311,9 @@ In= Timer ADJ emulator</text>
 <attribute name="MF" x="535.94" y="195.58" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="535.94" y="195.58" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="H4" gate="G$1" x="368.3" y="251.46" rot="R180"/>
+<instance part="H4" gate="G$1" x="368.3" y="251.46" rot="R180">
+<attribute name="PARTNO" x="368.3" y="251.46" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY38" gate="G$1" x="383.54" y="261.62" rot="R270"/>
 <instance part="SUPPLY37" gate="G$1" x="596.9" y="203.2"/>
 <instance part="SUPPLY40" gate="G$1" x="574.04" y="190.5"/>
@@ -17470,10 +17496,18 @@ In= Timer ADJ emulator</text>
 <instance part="SUPPLY11" gate="G$1" x="462.28" y="452.12"/>
 <instance part="SUPPLY15" gate="G$1" x="492.76" y="452.12"/>
 <instance part="SUPPLY14" gate="G$1" x="566.42" y="459.74"/>
-<instance part="J1" gate="G$1" x="904.24" y="391.16"/>
-<instance part="J3" gate="G$1" x="904.24" y="381"/>
-<instance part="J4" gate="G$1" x="904.24" y="350.52"/>
-<instance part="J5" gate="G$1" x="904.24" y="340.36"/>
+<instance part="J1" gate="G$1" x="904.24" y="391.16">
+<attribute name="PARTNO" x="904.24" y="391.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J3" gate="G$1" x="904.24" y="381">
+<attribute name="PARTNO" x="904.24" y="381" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J4" gate="G$1" x="904.24" y="350.52">
+<attribute name="PARTNO" x="904.24" y="350.52" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J5" gate="G$1" x="904.24" y="340.36">
+<attribute name="PARTNO" x="904.24" y="340.36" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY16" gate="G$1" x="891.54" y="373.38"/>
 <instance part="SUPPLY17" gate="G$1" x="891.54" y="304.8"/>
 <instance part="SUPPLY18" gate="G$1" x="695.96" y="370.84" rot="R180"/>
@@ -17637,7 +17671,9 @@ In= Timer ADJ emulator</text>
 <attribute name="MPN" x="393.7" y="447.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY58" gate="G$1" x="546.1" y="177.8"/>
-<instance part="J6" gate="G$1" x="904.24" y="325.12"/>
+<instance part="J6" gate="G$1" x="904.24" y="325.12">
+<attribute name="PARTNO" x="904.24" y="325.12" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

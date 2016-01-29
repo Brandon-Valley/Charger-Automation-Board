@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="13" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -2684,6 +2684,7 @@ einem neuen Namen ab.</description>
 </element>
 <element name="H2" library="FormE" package="MOLEX-CLIKMATE-8-VERTICAL-HEADER" value="MOLEX_CLIKMATE-8-VERTICAL" x="5.08" y="47.625" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.525" y="36.909" size="1.27" layer="25" font="vector"/>
+<attribute name="PARTNO" value="5025840870" x="5.08" y="47.625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="JP1" library="pinhead" package="2X20" value="" x="68.58" y="73.025" smashed="yes" rot="R180">
 <attribute name="NAME" x="71.12" y="77.47" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
@@ -2769,11 +2770,11 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="15.52" y="24.84" size="1.27" layer="21" font="vector"/>
 <attribute name="VALUE" x="17.07" y="24.055" size="1.27" layer="27"/>
 </element>
-<element name="U3" library="FormE" package="MAX5812" value="MAX5812" x="17.78" y="58.42" smashed="yes" rot="R270">
+<element name="U3" library="FormE" package="MAX5812" value="MAX5812LEUT+TCT-ND" x="17.78" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="17.74" y="55.705" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PARTNO" value="MAX5812LEUT+T" x="17.78" y="58.42" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U8" library="FormE" package="MAX5812" value="MAX5812" x="11.43" y="58.42" smashed="yes" rot="R270">
+<element name="U8" library="FormE" package="MAX5812" value="MAX5812LEUT+TCT-ND" x="11.43" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.7" y="62.825" size="1.27" layer="25" font="vector"/>
 <attribute name="PARTNO" value="MAX5812LEUT+T" x="11.43" y="58.42" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -2784,6 +2785,7 @@ einem neuen Namen ab.</description>
 </element>
 <element name="J2" library="FormE" package="MOLEX-CLIKMATE-4-VERTICAL-HEADER" value="MOLEX_CLICKMATE-4-VERTICAL" x="35.179" y="-10.414" smashed="yes">
 <attribute name="NAME" x="28.544" y="-6.525" size="1.27" layer="25" font="vector"/>
+<attribute name="PARTNO" value="5040500491" x="35.179" y="-10.414" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U11" library="FormE" package="ISO734X" value="ISO7340" x="29.21" y="73.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.86" y="79.375" size="1.27" layer="21" font="vector" rot="R180"/>
@@ -2870,6 +2872,7 @@ einem neuen Namen ab.</description>
 </element>
 <element name="H3" library="FormE" package="MOLEX-CLIKMATE-8-VERTICAL-HEADER" value="MOLEX_CLIKMATE-8-VERTICAL" x="5.08" y="69.85" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.604" y="78.39" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="PARTNO" value="5025840870" x="5.08" y="69.85" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U14" library="FormE" package="TSSOP20_MC" value="MCP2515-TSSOP" x="60.96" y="60.96" smashed="yes">
 <attribute name="MPN" value="MCP2515-E/ST" x="50.8" y="72.39" size="1.778" layer="27" display="off"/>
@@ -2969,6 +2972,7 @@ einem neuen Namen ab.</description>
 </element>
 <element name="H4" library="FormE" package="MOLEX_CLICKMATE-11-VERTICAL-HEADER" value="" x="16.129" y="-10.414" smashed="yes">
 <attribute name="NAME" x="24.099" y="-6.525" size="1.27" layer="25" font="vector"/>
+<attribute name="PARTNO" value="5025841170" x="16.129" y="-10.414" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R11" library="rcl" package="R0805" value="0" x="56.515" y="27.94" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="ERJ-6GEY0R00V" x="47.625" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3272,15 +3276,19 @@ einem neuen Namen ab.</description>
 </element>
 <element name="J1" library="FormE" package="MOLEX-CLIKMATE-2-VERTICAL-HEADER" value="MOLEX_CLICKMATE-2-VERTICAL" x="47.244" y="-10.414" smashed="yes">
 <attribute name="NAME" x="48.864" y="-6.525" size="1.27" layer="25" font="vector"/>
+<attribute name="PARTNO" value="5025840270" x="47.244" y="-10.414" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J3" library="FormE" package="MOLEX-CLIKMATE-2-VERTICAL-HEADER" value="MOLEX_CLICKMATE-2-VERTICAL" x="58.039" y="-10.414" smashed="yes">
 <attribute name="NAME" x="59.659" y="-6.525" size="1.27" layer="25" font="vector"/>
+<attribute name="PARTNO" value="5025840270" x="58.039" y="-10.414" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J4" library="FormE" package="MOLEX-CLIKMATE-2-VERTICAL-HEADER" value="MOLEX_CLICKMATE-2-VERTICAL" x="68.834" y="-10.414" smashed="yes">
 <attribute name="NAME" x="70.454" y="-6.525" size="1.27" layer="25" font="vector"/>
+<attribute name="PARTNO" value="5025840270" x="68.834" y="-10.414" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J5" library="FormE" package="MOLEX-CLIKMATE-2-VERTICAL-HEADER" value="MOLEX_CLICKMATE-2-VERTICAL" x="79.629" y="-10.414" smashed="yes">
 <attribute name="NAME" x="81.249" y="-6.525" size="1.27" layer="25"/>
+<attribute name="PARTNO" value="5025840270" x="79.629" y="-10.414" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R34" library="adafruit" package="R0805" value="10K" x="77.47" y="67.31" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="ERJ-6ENF1002V" x="77.47" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3418,6 +3426,7 @@ einem neuen Namen ab.</description>
 </element>
 <element name="J6" library="FormE" package="MOLEX-CLIKMATE-2-VERTICAL-HEADER" value="MOLEX_CLICKMATE-2-VERTICAL" x="90.424" y="-10.414" smashed="yes">
 <attribute name="NAME" x="92.044" y="-6.525" size="1.27" layer="25"/>
+<attribute name="PARTNO" value="5025840270" x="90.424" y="-10.414" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
